@@ -17,7 +17,7 @@ import java.io.InputStream;
  */
 public class MpCodeGenerator {
 
-	private static final String DEFAULT_PATH = "mp-code-generator-config.yaml";
+	private static final String DEFAULT_PATH = "mybatis-plus-generator-config.yaml";
 
 	public MpCodeGenerator() {
 	}

@@ -19,13 +19,10 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
-/**
- * 插件生成代码测试
- */
 @Mojo(name = "generator", defaultPhase = LifecyclePhase.COMPILE)
 public class MpCodeGeneratorMojo extends AbstractMojo {
 
-    private static final String DEFAULT_PATH = "mp-code-generator-config.yaml";
+    private static final String DEFAULT_PATH = "mybatis-plus-generator-config.yaml";
 
     @Parameter
     private String configurationFile;
